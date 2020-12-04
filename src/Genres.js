@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { View, Text, StyleSheet } from "react-native-web";
 
-import findGenres from "./utils";
+import findGenres from "./utils/utils";
 
 const Genres = ({ genres, movies }) => {
   const movieGenres = findGenres(genres, movies);

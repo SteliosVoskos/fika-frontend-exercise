@@ -1,4 +1,4 @@
-import findGenres from '../../utils';
+import findGenres from '../../utils/utils';
 
 describe('A utility function for finding genres based on ids', () => {
     it('should return an array of genres', () => {
