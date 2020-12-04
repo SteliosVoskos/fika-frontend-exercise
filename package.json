@@ -1,24 +1,37 @@
 {
-    "name": "react-native",
-    "version": "1.0.0",
-    "description": "Fika test",
-    "keywords": [],
-    "main": "src/index.js",
-    "dependencies": {
-      "@testing-library/jest-dom": "5.11.6",
-      "jest": "26.6.3",
-      "prop-types": "15.7.2",
-      "react": "16.13.1",
-      "react-dom": "16.13.1",
-      "react-native-web": "0.13.16",
-      "react-scripts": "3.4.1",
-      "styled-components": "5.2.1"
-    },
-    "devDependencies": {},
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test --env=jsdom",
-      "eject": "react-scripts eject"
-    }
+  "name": "react-native",
+  "version": "1.0.0",
+  "description": "Fika test",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@testing-library/jest-dom": "5.11.6",
+    "jest": "24.9.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native-web": "0.13.16",
+    "react-scripts": "3.4.1",
+    "styled-components": "5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
+}
