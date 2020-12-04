@@ -13,6 +13,7 @@ Main challenge: During the implementation I wasn't able to fetch the images from
 Next steps:
 <ul>
     <li>Define a state management system (Redux or something similar). At the moment, the app is using the component's internal state to manage state changes.</li>
+    <li>Add a service for retriving the data and replace fetch() with async-await functions.</li>
     <li>Styling - The app needs more styling in order to stand out. At the moment, the styling is very basic.</li>
     <li>From a UI/UX perspective, the app is missing a few basic elements, such as the ability to search and to click on a movie to view more details.</li>
     <li>The components need to be in a `component` directory</li>
